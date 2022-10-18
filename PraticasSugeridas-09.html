@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoAula 09</title>
+</head>
+
+<body>
+    <p>
+    <h3>
+        Campos solicitados em alguns sites:
+    </h3>
+    <a href="https://ava3.cefor.ifes.edu.br/">Site do IFES:</a>
+    Campos solicitados para login, usuário e senha. <br>
+    <a href="https://github.com/">Github:</a>
+    Campos solicitados para login, usuário e senha. <br>
+    <a href="https://www.primevideo.com/">Amazon Prime:</a>
+    Campos solicitados para login, usuário e senha.
+    </p>
+    <h3>Formulario de PetShop</h3>
+    <form action="./contato/cotar">
+        <p> <label for="TxtNomeCompleto">Nome Completo</label><br>
+            <input type="text" name="NomeCompleto" id="TxtNomeCompleto" placeholder="Nome completo">
+        </p>
+
+        <fieldset>
+            <legend>Animal:</legend>
+            <input type="radio" name="Txt" id="IdCachorro" value="C">
+            <label for="IdCachorro">Cachorro</label><br>
+            <input type="radio" name="Txt" id="IdCoelho" value="C">
+            <label for="IdCoelho">Coelho</label><br>
+            <input type="radio" name="Txt" id="IdGato" value="C">
+            <label for="IdGato">Gato</label><br>
+            <input type="radio" name="Txt" id="IdPassaro" value="C">
+            <label for="IdPassaro">Pássaro</label><br>
+        </fieldset>
+        <p> <label for="TxtService">Serviço:</label><br>
+            <input type="text" name="TipoServico" id="TxtService" placeholder="Serviço desejado:">
+        </p>
+        <P>
+            <label for="SelectObs">Observações:</label><br>
+            <select name="Obs" id="SelectObs" multiple size="3">
+                <option value="C1">Aparar pelos na máquina 1</option>
+                <option value="C2">Aparar pelos na máquina 2</option>
+                <option value="C3">Aparar pelos na máquina 3</option>
+                <option value="C4">Aparar pelos na máquina 4</option>
+                <option value="Raspar">Retirar todo o pelo</option>
+                <option value="Banho">Banho</option>
+                <option value="Injecao">Vermifugar</option>
+            </select>
+        </P>
+    </form>
+
+
+</body>
+
+</html>
