@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video aula 10</title>
+</head>
+
+<body>
+    <h1>Cadastro de clientes</h1>
+    <hr>
+    <form action="/cliente/cadastrar">
+        <label for="NomeTxT">Nome</label><br>
+        <input type="text" name="Nome" id="NomeTxT" placeholder="Seu Nome"><br><br>
+        <label for="EmailTxT">E-mail</label><br>
+        <input type="email" name="Email" id="EmailTxT" placeholder="Email@dominio.com"><br><br>
+        <label for="portfoliotxt">URL Portfolio Online</label><br>
+        <input type="url" name="Portfolio" id="portfoliotxt"><br><br>
+        <label for="Dttxt">Data de Nascimento</label><br>
+        <input type="date" name="datadenascimento" id="Dttxt"><br><br>
+        <label for="dependentestxt">Quantidade de dependentes</label><br>
+        <input type="text" name="dependentes" id="dependentestxt"><br><br>
+        <label for="Cortxt">Cor favorita</label><br>
+        <input type="color" name="cor" id="Cortxt"><br><br>
+        <label for="Telefonetxt">Telefone</label><br>
+        <input type="number" id="Telefonetxt" name="Telefone" placeholder="XX XXXXX-XXXX"><br><br>
+        <input type="checkbox" id="Recebertxt" name="ReceberPromocoes">
+        <label for="Recebertxt">Receber Promoções</label> <br><br>
+        <label for="Estadotxt">Estado</label><br>
+        <select name="Estado" id="Estadotxt">
+            <option value="BA">Bahia</option>
+            <option value="ES">Espirito Santo</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+        </select><br><br>
+        <label for="Biotxt">Mini-Biografia</label><br>
+        <textarea name="mensagem" id="Biotxt" cols="21" rows="5"></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+
+</body>
+
+</html>
